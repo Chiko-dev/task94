@@ -18,6 +18,7 @@ export default class Application extends EventEmitter {
     
     let emojiDiv = document.querySelector("#emojis");
 
+    this.addBananas();
     let monkeyBananaParagraph = document.createElement("P");
     monkeyBananaParagraph.textContent = this.emojis.join('');
     emojiDiv.appendChild(monkeyBananaParagraph);
