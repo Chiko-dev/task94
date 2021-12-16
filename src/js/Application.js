@@ -15,11 +15,12 @@ export default class Application extends EventEmitter {
   }
   setEmojis(emojis) {
     this.emojis = emojis;
+    let emoji = this.emojis.map((ape) => {
+      return ape;
+    });
   }
 
   addBananas() {
-    let bananaPerMonkey = this.banana.map((banana) => {
-      return banana;
-    });
+
   }
 }
