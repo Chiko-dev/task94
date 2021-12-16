@@ -1,5 +1,5 @@
 import "./scss/app.scss";
-import Application from "./js/Application";
+import Application from "./js/Application.js";
 
 window.addEventListener("DOMContentLoaded", () => {
   // This block will be executed once the page is loaded and ready
@@ -8,4 +8,6 @@ window.addEventListener("DOMContentLoaded", () => {
   app.setEmojis(["🐒", "🦍", "🦧"]);
   app.addBananas();
   window.__JS_APP = app;
+
+  console.log("test");
 });
